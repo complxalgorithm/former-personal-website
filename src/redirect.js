@@ -8,7 +8,7 @@ $(document).ready(function () {
 
     if (page !== "index.html") {
       url = http + ss + "/pages/" + page;
-      window.location.replace(url);
+      window.location.href = url;
     }
   }
 });
