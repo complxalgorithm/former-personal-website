@@ -182,6 +182,14 @@ p {
   padding-right: 5px;
 }
 
+#melist {
+  list-style-type: none;
+}
+
+#sublist {
+  list-style-type: square;
+}
+
 #projs {
   position: absolute;
   background-color: white;

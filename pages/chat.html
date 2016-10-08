@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
 
-        <title>SCS Facts</title>
+        <title>SCS's Philosophy Page</title>
 
         <meta name="author" content="Stephen C. Sanders">
         <meta name="description" content="Full Stack Web Developer and college junior based outside of Rochester, NY">
@@ -28,43 +28,36 @@
         ga('send', 'pageview');
 
         </script>
-
-        <style>
-            #cbutton {
-                left: 47.85%;
-            }
-        </style>
     </head>
 
     <body id="body">
-
         <!-- navbar code -->
         <div id="drop" class="dropdown">
-        <button class="btn btn-default btn-lg dropdown-toggle" aria-label="menu" type="button" id="menu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-            <i class="glyphicon glyphicon-th-large"></i>
-        </button>
-        <ul class="dropdown-menu" aria-labelledby="menu">
-            <li><a href="./">Home</a></li>
-            <li><a href="#">Me</a></li>
-            <li><a href="./projects.html">Work</a></li>
-            <li><a href="./philosophy.html">Contemplations</a></li>
-            <li><a href="./cv.html">CV</a></li>
-            <li><a href="./chat.html">Chat</a></li>
-            <li class="divider"></li>
-            <li><a href="http://kaktusapp.com" target="_blank">Kaktus</a></li>
-            <li><a href="/bookmarx-chrome-extension/" target="_blank">Bookmarx</a></li>
-            <li class="divider"></li>
-            <li><a href="https://www.paypal.me/stephensanders6496" target="_blank">Donate via PayPal</a></li>
-            <li><a href="https://cash.me/$stephencsanders" target="_blank">Donate via Square Cash</a></li>
-        </ul>
+            <button class="btn btn-default btn-lg dropdown-toggle" aria-label="menu" type="button" id="menu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                <i class="glyphicon glyphicon-th-large"></i>
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="menu">
+                <li><a href="./">Home</a></li>
+                <li><a href="./me.html">Me</a></li>
+                <li><a href="./projects.html">Work</a></li>
+                <li><a href="./philosophy.html">Contemplations</a></li>
+                <li><a href="./cv.html">CV</a></li>
+                <li><a href="#">Chat</a></li>
+                <li class="divider"></li>
+                <li><a href="http://kaktusapp.com" target="_blank">Kaktus</a></li>
+                <li><a href="/bookmarx-chrome-extension/" target="_blank">Bookmarx</a></li>
+                <li class="divider"></li>
+                <li><a href="https://www.paypal.me/stephensanders6496" target="_blank">Donate via PayPal</a></li>
+                <li><a href="https://cash.me/$stephencsanders" target="_blank">Donate via Square Cash</a></li>
+            </ul>
         </div>
 
         <!-- Trigger button for modal -->
-        <center>
+        <center class="contact">
             <div id="cbutton">
-                <button type="button" class="btn btn-default btn-lg" data-toggle="modal" data-target="#contactModal">
-                    Contact
-                </button>
+            <button type="button" class="btn btn-default btn-lg" data-toggle="modal" data-target="#contactModal">
+            Contact
+            </button>
             </div>
         </center>
 
@@ -96,51 +89,29 @@
         </div>
 
         <header class="jumbotron">
-            <h1 class="text-center">Me</h1>
+            <h1 class="text-center">Chat</h1>
         </header>
 
-        <ul class="nav nav-tabs">
-            <li role="presentation" class="active"><a href="#">Me</a></li>
-            <li><a href="projects.html">Projects</a></li>
-            <li><a href="philosophy.html">Philosophy</a></li>
-            <li><a href="cv.html">CV</a></li>
-        </ul>
+        <div class="text-center">
+            <p>You can never know for sure when I'll be available to chat, so here's my personal assistant <a href="https://abwid.com" target="_blank">Abwid</a> who you can send questions to about me in the meantime.</p>
 
-        <div class="info">
-            <img id="mepic" src="icons/moi.jpg" alt="me" />
+            <center><div><embed src="https://abwid.com/embed?email=scsandman6496@gmail.com" height="625px" width="975px" /></div></center><br />
 
-            <div class="mediv">
-                <article id="spec" class="text-center">
-                    <p>Aye look, that's me.</p>
-
-                    <p>I'm Stephen Sanders, and I'm currently a junior Software Development/Philosophy double major at SUNY College at Brockport.</p>
-
-                    <p>The main activity in which I partake outside of schoolwork is development. I am the Lead Developer at <a href="http://omicroninteractive.com" target="_blank">Omicron Interactive</a>.</p>
-
-                    <p>I am also an amateur philosopher. I've written <a href="./philosophy.html">some neat stuff</a>.</p>
-
-                <div class="stuff">
-                    <article id="spec">
-                        <p><strong class="un">Specialties</strong></p>
-                        <ul>
-                            <li><strong>Development</strong>: I mainly develop for the web; my main tools are JavaScript, jQuery, LAMP w/ PHP, and Python w/ Django.</li><br />
-                            <li><strong>Philosophy</strong>: My writings concern topics such as epistemology (<a href="https://en.wikipedia.org/wiki/Foundationalism#Modest_foundationalism" target="_blank">modest foundationalism</a>), normative ethics, the <a href="https://en.wikipedia.org/wiki/Social_contract" target="_blank">Social Contract Theory</a>, and philosophy of time.</li>
-                        </ul>
-                    </article>
-                </div>
+            <p><small>Props to <a href="http://arkanath.com/" target="_blank">Arkanath Pathak</a> for crafting this beautiful creation.</small></p>
         </div>
 
         <div id="banner">
             <a href="https://github.com/complxalgorithm/complxalgorithm.github.io" target="_blank">View me on GitHub</a>
         </div>
 
-        <script type="text/javascript" src="src/js/dropdown.js"></script>
+        <script type="text/javascript" src="../src/dropdown.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-        <script type="text/js" src="assets/js/jquery.min.js"></script>
+        <script type="text/js" src="../../assets/js/jquery.min.js"></script>
         <script src="assets/js/bootstrap.min.js"></script>
         <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
         <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
 
+        <script type="text/javascript" src="../src/redirect.js"></script>
         <script async src='https://pepper.swat.io/embed.js?eyJwb3NpdGlvbiI6InJpZ2h0IiwiY29sb3IiOiI1MEUzQzIiLCJpY29uIjoiYnViYmxlIiwiaW50cm9UZXh0IjpudWxsLCJjaGFubmVscyI6W1siZmFjZWJvb2siLCJTY3NhbmRtYW40Iiwic29jaWFsIl0sWyJ0d2l0dGVyIiwiQ29tcGx4QWxnb3JpdGhtIiwic29jaWFsIl0sWyJpbnN0YWdyYW0iLCJjbHlkZW1hbjQiLCJzb2NpYWwiXSxbImdpdGh1YiIsImh0dHBzOi8vZ2l0aHViLmNvbS9jb21wbHhhbGdvcml0aG0iLCJzb2NpYWwiXSxbInByb2R1Y3RodW50IiwiY29tcGx4YWxnb3JpdGhtIiwic29jaWFsIl0sWyJzbmFwY2hhdCIsInVuZW1wbG95ZWRzdGV2ZSIsInNvY2lhbCJdLFsicGhvbmUiLCIrMTU4NTM2MjkyMjQiLCJjbGFzc2ljIl0sWyJlbWFpbCIsInNjc2FuZG1hbjY0OTZAZ21haWwuY29tIiwiY2xhc3NpYyJdXX0='></script>
     </body>
 </html>
