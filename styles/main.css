@@ -40,7 +40,15 @@ h3 {
   background-color: #FC4501;
 }
 
+.btn-stackoverflow {
+  background-color: #F69F5A;
+}
+
 .fa-reddit:hover {
+  background-color: black;
+}
+
+.fa-stackoverflow:hover {
   background-color: black;
 }
 
