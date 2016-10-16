@@ -120,8 +120,9 @@ p {
 }
 
 .contact {
-    position: relative;
-    bottom: 0;
+    position: absolute;
+    top: 65px;
+    left: 0;
 }
 
 #cbutton {
