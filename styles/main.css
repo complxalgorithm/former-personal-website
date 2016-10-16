@@ -124,7 +124,7 @@ p {
 
 #cbutton {
   position: absolute;
-  bottom: 0;
+  bottom: -400px;
   left: 0;
   font-family: "Harmattan";
   padding-bottom: 10px;
@@ -170,7 +170,7 @@ p {
   position: relative;
   left: 0;
   top: 0px;
-  width: 275px;
+  width: 250px;
   height: 425px;
 }
 
@@ -197,11 +197,17 @@ p {
 }
 
 #melist {
-  list-style-type: none;
+  list-style-type: circle;
+  text-align: left;
 }
 
 #sublist {
   list-style-type: square;
+  text-indent: inherit;
+}
+
+.twitter {
+  padding-top: 15px;
 }
 
 #projs {
