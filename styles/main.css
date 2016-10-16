@@ -36,6 +36,14 @@ h3 {
   background-color: #8CE070;
 }
 
+.btn-refind {
+  background-color: #F1FFFF;
+}
+
+.btn-refind:hover {
+  background-color: black;
+}
+
 .btn-reddit {
   background-color: #FC4501;
 }
@@ -46,6 +54,11 @@ h3 {
 
 .fa-reddit:hover {
   background-color: black;
+}
+
+#refindlogo {
+  weight: 26px;
+  height: 26px;
 }
 
 #soicon {
