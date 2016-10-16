@@ -49,7 +49,11 @@ h3 {
 }
 
 .btn-stackoverflow {
-  background-color: #F69F5A;
+  background-color: #FFC387;
+}
+
+.btn-stackoverflow:hover {
+  background-color: black;
 }
 
 .fa-reddit:hover {
