@@ -133,6 +133,12 @@ p {
   padding-bottom: 10px;
 }
 
+.follow {
+  position: relative;
+  top: 75px;
+  float: right;
+}
+
 #mainphilo {
   padding-top: 15px;
 }
