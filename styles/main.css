@@ -133,12 +133,6 @@ p {
   padding-bottom: 10px;
 }
 
-.follow {
-  position: relative;
-  top: 75px;
-  float: right;
-}
-
 .github {
   position: absolute;
   top: 295px;
@@ -261,20 +255,3 @@ div article ul li {
   background-color: orange;
   color: white;
 }
-/*
-.column-left { 
-  float: left;
-  padding-left: 15px;
-  width: 22.5%;
-}
-
-.column-right {
-  float: right;
-  width: 33%;
-}
-
-.column-center {
-  display: inline-block;
-  width: 33%;
-}
-*/
