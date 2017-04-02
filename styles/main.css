@@ -127,7 +127,7 @@ p {
 
 #cbutton {
   position: absolute;
-  bottom: -575px;
+  bottom: -625px;
   left: 0;
   font-family: "Harmattan";
   padding-bottom: 10px;
@@ -135,7 +135,7 @@ p {
 
 .github {
   position: absolute;
-  top: 295px;
+  top: 325px;
   right: 0;
 }
 
