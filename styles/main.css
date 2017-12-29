@@ -252,3 +252,14 @@ div article ul li {
   background-color: orange;
   color: white;
 }
+
+#creative-works {
+  position: absolute;
+  background-color: white;
+  width: 65%;
+  left: 250px; 
+}
+
+.card {
+  padding: 10px;
+}

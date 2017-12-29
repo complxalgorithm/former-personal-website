@@ -6,6 +6,7 @@ xpapers_embed_buffer += "<li id='eSANATS-2' class='xpapers_entry'><span class=\"
 xpapers_embed_buffer += "<li id='eSANERI-2' class='xpapers_entry'><span class=\"xpapers_citation\"><a class='xpapers_title' href=\"http://philpapers.org/rec/SANERI-2\" target=\"_blank\">Empathy&#39;s Role in Understanding the World.</a><span class='xpapers_pubInfo'></span></span><div class=\"xpapers_extras\"></div></li> ";
 xpapers_embed_buffer += "<li id='eSANJTO' class='xpapers_entry'><span class=\"xpapers_citation\"><a class='xpapers_title' href=\"http://philpapers.org/rec/SANJTO\" target=\"_blank\">Jewish Teachings of Mankind and God in the Book of Genesis 1-3.</a><span class='xpapers_pubInfo'></span></span><div class=\"xpapers_extras\"></div></li> ";
 xpapers_embed_buffer += "<li id='eSANOTA-4' class='xpapers_entry'><span class=\"xpapers_citation\"><a class='xpapers_title' href=\"https://philpapers.org/rec/SANOTA-4\">On the Absurdity of Theistic Evolution.</a><span class='xpapers_pubInfo'></span></span><div class=\"xpapers_extras\"></div></li> ";
+xpapers_embed_buffer += "<li id='SANNAT-3' class='xpapers_entry'><span class=\"xpapers_citation\"><a class='xpapers_title' href=\"https://philpapers.org/rec/SANNAT-3\">Neoliberalism and the Emerging Precariat.</a><span class='xpapers_pubInfo'></span></span><div class=\"xpapers_extras\"></div></li>";
 function xpapers_embed_init() {
     if (arguments.callee.done) return;
     arguments.callee.done = true;
