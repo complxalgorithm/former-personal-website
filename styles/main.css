@@ -244,8 +244,8 @@ div article ul li {
   float: right;
 }
 
-.nav li {
-  width: 28.5%;
+ul.nav li {
+  width: 25%;
 }
 
 .nav li:hover {
@@ -264,4 +264,77 @@ div article ul li {
   padding-left: 10px;
   padding-right: 10px;
   padding-bottom: 10px;
+}
+/*
+li.melist, ul.sublist {
+    list-style-type: circle;
+    padding-left: 5px;
+    column-count: 2;
+    column-gap: 10px;
+}
+*/
+/* mobile styles */
+@media only screen and (max-width: 546px) {
+    div.mediv {
+        width: auto;
+    }
+}
+
+@media only screen and (max-width: 584px) {
+    div#social a.btn-social-icon {
+        margin: 2.5px 1px 2.5px 1px !important;
+    }
+}
+
+@media only screen and (max-width: 684px) {
+    article#intro {
+        padding: 0 3.5px 0 3.5px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 874px) {
+    ul.nav-tabs {
+        margin: -45px auto 0;
+    }
+}
+
+@media screen and (min-width: 875px) and (max-width: 974px) {
+    ul.nav-tabs {
+        margin: -45px auto 0;
+    }
+}
+
+@media only screen and (max-width: 974px) {
+    div.mediv {
+        left: 0;
+        width: auto;
+    }
+    
+    div.info img#mepic {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 976px) and (max-width: 1292px) {
+    ul.nav-tabs {
+        margin: -45px auto 0;
+    }
+}
+
+@media only screen and (max-width: 1048px) {
+    div.github {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1246px) {
+    div.twitter {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1316px) {
+    ul.nav-tabs {
+        top: -30px;
+    }
 }
