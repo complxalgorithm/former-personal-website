@@ -384,3 +384,23 @@ li.melist, ul.sublist {
         right: 10%;
     }
 }
+
+/* philosophy page */
+@media (max-width: 767px) {
+    ul.nav.nav-pills {
+        top: 47.5px !important;
+        right: 0;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 879px) {
+    ul.nav.nav-pills {
+        top: 110px !important;
+    }
+}
+
+@media (max-width: 880px) {
+    nav.nav.navbar {
+        display: none;
+    }
+}
