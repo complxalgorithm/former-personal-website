@@ -319,12 +319,20 @@ li.melist, ul.sublist {
 
 @media only screen and (max-width: 974px) {
     div.mediv {
-        left: 0;
-        width: auto;
+        left: 5%;
+        right: 5%;
+        width: 90%;
     }
     
     div.info img#mepic {
         display: none;
+    }
+}
+
+@media (min-width: 1150px) {
+    div.mediv {
+        left: 27.5% !important;
+        width: 45% !important;
     }
 }
 
