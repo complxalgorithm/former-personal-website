@@ -40,7 +40,7 @@ h3 {
   background-color: #F1FFFF;
 }
 
-.btn-refind:hover {
+.btn-refind:hover, .btn-stackoverflow:hover, .fa-reddit:hover, #upicon:hover {
   background-color: black;
 }
 
@@ -52,22 +52,10 @@ h3 {
   background-color: #FFE8DF;
 }
 
-.btn-stackoverflow:hover {
-  background-color: black;
-}
-
-.fa-reddit:hover {
-  background-color: black;
-}
-
 #upicon {
   color: white;
   font-size: 25px;
   font-weight: bold;
-}
-
-#upicon:hover {
-  color: black;
 }
 
 .btn-social-icon {
