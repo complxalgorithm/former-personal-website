@@ -224,7 +224,7 @@ p {
 }
 
 div ul li {
-  list-style-type: none;
+  list-style-type: circle;
   margin-left: 0.25em;
 }
 
@@ -238,6 +238,15 @@ div article ul li {
 
 #techused {
   font-weight: bold;
+}
+
+ul.techused-list {
+    column-count: 2;
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-gap: 7.5%;
+    -webkit-column-gap: 7.5%;
+    -moz-column-gap: 7.5%;
 }
 
 .nav {
@@ -273,7 +282,7 @@ li.melist, ul.sublist {
     column-gap: 10px;
 }
 */
-/* mobile styles */
+/* ---- MOBILE STYLES ---- */
 @media only screen and (max-width: 546px) {
     div.mediv {
         width: auto;
@@ -336,5 +345,42 @@ li.melist, ul.sublist {
 @media only screen and (max-width: 1316px) {
     ul.nav-tabs {
         top: -30px;
+    }
+}
+
+/* projects page */
+@media (max-width: 399px) {
+    div#projs {
+        left: 27.5%;
+        width: 70%;
+    }
+}
+
+@media (min-width: 400px) and (max-width: 575px) {
+    div#projs {
+        left: 22.5%;
+        width: 72.5%;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 720px) {
+    div#projs {
+        left: 20%;
+        width: 77.5%;
+    }
+}
+
+@media (min-width: 721px) and (max-width: 1049px) {
+    div#projs {
+        left: 17.5%;
+        width: 80%;
+    }
+}
+
+@media (min-width: 1050px) {
+    div#projs {
+        left: 15%;
+        width: 75%;
+        right: 10%;
     }
 }
