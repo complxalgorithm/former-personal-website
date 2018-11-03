@@ -135,7 +135,7 @@ p {
 
 .github {
   position: absolute;
-  top: 325px;
+  top: 292.5px;
   right: 0;
 }
 
@@ -348,9 +348,17 @@ li.melist, ul.sublist {
     }
 }
 
-@media only screen and (max-width: 1246px) {
+@media only screen and (max-width: 1275px) {
     div.twitter {
         display: none;
+    }
+}
+
+@media (min-width: 1276px) {
+    div.twitter {
+        position: absolute;
+        top: 67.5% !important;
+        right: 0 !important;
     }
 }
 
