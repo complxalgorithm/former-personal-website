@@ -361,9 +361,27 @@ li.melist, ul.sublist {
 @media (min-width: 1276px) {
     div.twitter {
         position: absolute;
-        top: 62.5% !important;
+        top: 50% !important;
         right: 0 !important;
         height: 55% !important;
+    }
+}
+
+@media (min-height: 668px) and (max-height: 850px) {
+    div.twitter {
+        top: 37.5% !important;
+    }
+}
+
+@media (min-height: 851px) and (max-height: 1100px) {
+    div.twitter {
+        top: 30% !important;
+    }
+}
+
+@media (min-height: 1101px) {
+    div.twitter {
+        top: 27.5% !important;
     }
 }
 
