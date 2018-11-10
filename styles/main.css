@@ -361,7 +361,7 @@ li.melist, ul.sublist {
 @media (min-width: 1276px) {
     div.twitter {
         position: absolute;
-        top: 50% !important;
+        top: 57.5% !important;
         right: 0 !important;
         height: 55% !important;
     }
