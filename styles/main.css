@@ -317,10 +317,26 @@ li.melist, ul.sublist {
     }
 }
 
-@media (min-width: 1150px) {
+@media (min-width: 975px) and (max-width: 1150px) {
+    div.info img#mepic {
+        width: 25% !important;
+    }
+}
+
+@media (min-width: 1150px) and (max-width: 1450px) {
     div.mediv {
         left: 27.5% !important;
         width: 45% !important;
+    }
+    
+    div.info img#mepic {
+        width: 22.5% !important;
+    }
+}
+
+@media (min-width: 1451px) {
+    div.info img#mepic {
+        width: 21% !important;
     }
 }
 
@@ -345,7 +361,7 @@ li.melist, ul.sublist {
 @media (min-width: 1276px) {
     div.twitter {
         position: absolute;
-        top: 50% !important;
+        top: 62.5% !important;
         right: 0 !important;
         height: 55% !important;
     }
