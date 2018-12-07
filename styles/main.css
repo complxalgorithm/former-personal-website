@@ -40,12 +40,8 @@ h3 {
   background-color: #F1FFFF;
 }
 
-.btn-refind:hover, .btn-stackoverflow:hover, .fa-reddit:hover, #upicon:hover {
+.btn-refind:hover, .btn-stackoverflow:hover, #upicon:hover {
   background-color: black;
-}
-
-.btn-reddit {
-  background-color: #FC4501;
 }
 
 .btn-stackoverflow {
@@ -140,12 +136,12 @@ p {
   font-family: "Harmattan";
 }
 
-.navbar {
+nav.navbar {
   top: -37.5px;
   width: 100%;
 }
 
-.navbar-brand {
+nav.navbar-brand {
   background-color: orange;
   color: white;
   width: 12.5%;
@@ -154,7 +150,7 @@ p {
   font-family: "Harmattan";
 }
 
-.navbar-brand:hover {
+nav.navbar-brand:hover {
   background-color: white;
   color: cyan;
 }
@@ -168,7 +164,7 @@ p {
   left: 0;
   top: 0px;
   width: 250px;
-  height: 425px;
+  height: 452.5px;
 }
 
 .mediv {
@@ -237,24 +233,12 @@ ul.techused-list {
     -moz-column-gap: 7.5%;
 }
 
-.nav {
-  float: right;
-}
-
-ul.nav li {
-  width: 25%;
-}
-
-.nav li:hover {
-  background-color: orange;
-  color: white;
-}
-
 #creative-works {
   position: absolute;
   background-color: white;
   width: 65%;
-  left: 250px; 
+  left: 250px;
+  top: 225px;
 }
 
 .card {
@@ -265,6 +249,19 @@ ul.nav li {
 
 div.card-header {
     text-align: center;
+}
+
+.active {
+    background-color: #337ab7 !important;
+}
+
+.nav {
+  float: right;
+}
+
+.nav-pills li a:hover, ul.nav-tabs li a:hover, ul.nav.active li a:hover {
+  background-color: orange !important;
+  color: white;
 }
 /*
 li.melist, ul.sublist {
@@ -432,7 +429,7 @@ li.melist, ul.sublist {
 @media (max-width: 767px) {
     ul.nav.nav-pills {
         top: 47.5px !important;
-        right: 0;
+        float: left;
     }
 }
 
@@ -462,5 +459,20 @@ li.melist, ul.sublist {
         left: 12.5%;
         right: 12.5%;
         width: 75%;
+    }
+}
+
+/* me page */
+@media (max-width: 767px) {
+    ul.nav.nav-tabs {
+        width: 100%;
+    }
+    
+    ul.nav.nav-tabs li {
+        width: 25%;
+    }
+    
+    ul.nav.nav-tabs li a {
+        text-align: center;
     }
 }
