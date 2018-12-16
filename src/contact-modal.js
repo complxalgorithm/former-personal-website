@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    $("#contactModal").on('shown.bs.modal', function() {
+    $("#contactModal").one('shown.bs.modal', function() {
         var para = document.getElementById('email-p');
         var uname = 'scsandman6496';
         var eserve = 'gmail.com';
