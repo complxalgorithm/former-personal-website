@@ -12,7 +12,7 @@
         <link rel="icon" type="image/jpg" href="./assets/icons/FullSizeRender.jpg" />
 
         <link rel="stylesheet" href="styles/main.css" />
-        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous" />
         <link rel="stylesheet" href="styles/bootstrap-social.css" />
         <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
         <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
@@ -34,37 +34,38 @@
 
         <!-- navbar code -->
         <div id="drop" class="dropdown">
-        <button class="btn btn-default btn-lg dropdown-toggle" aria-label="menu" type="button" id="menu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-            <i class="glyphicon glyphicon-th-large"></i>
-        </button>
-        <ul class="dropdown-menu" aria-labelledby="menu">
-            <li><a href="./">Home</a></li>
-            <li><a href="#">Me</a></li>
-            <li><a href="./projects.html">Work</a></li>
-            <li><a href="./philosophy.html">Contemplations</a></li>
-            <li><a href="./creative.html">Creative</a></li>
-            <li><a href="./assets/docs/scs-resume.pdf" target="_blank">CV</a></li>
-            <li><a href="http://tumblr.stephensanders.me" target="_blank">Tumblr Blog</a></li>
-            <li class="divider"></li>
-            <li><a href="/kaktus_app/" target="_blank">Kaktus</a></li>
-            <li><a href="/shooly/" target="_blank">Shooly</a></li>
-            <li><a href="/writer/" target="_blank">Writer</a></li>
-            <li><a href="/calculator/" target="_blank">calculator</a></li>
-            <li class="divider"></li>
-            <li><a href="https://www.paypal.me/stephensanders6496" target="_blank">Donate via PayPal</a></li>
-            <li><a href="https://cash.me/$stephencsanders" target="_blank">Donate via Square Cash</a></li>
-        </ul>
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="menu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <i class="fas fa-th-large fa-2x"></i>
+            </button>
+            <div class="dropdown-menu" aria-labelledby="menu">
+                <a class="dropdown-item" href="./">Home</a>
+                <a class="dropdown-item" href="#">Me</a>
+                <a class="dropdown-item" href="./projects.html">Work</a>
+                <a class="dropdown-item" href="./philosophy.html">Contemplations</a>
+                <a class="dropdown-item" href="./creative.html">Creative</a>
+                <a class="dropdown-item" href="./assets/docs/scs-resume.pdf" target="_blank">CV</a>
+                <a class="dropdown-item" href="http://tumblr.stephensanders.me" target="_blank">Tumblr Blog</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="/kaktus_app/" target="_blank">Kaktus</a>
+                <a class="dropdown-item" href="/bookmarx-chrome-extension/" target="_blank">Bookmarx</a>
+                <a class="dropdown-item" href="/shooly/" target="_blank">Shooly</a>
+                <a class="dropdown-item" href="/writer/" target="_blank">Writer</a>
+                <a class="dropdown-item" href="/calculator/" target="_blank">calculator</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="https://www.paypal.me/stephensanders6496" target="_blank">Donate via PayPal</a>
+                <a class="dropdown-item" href="https://cash.me/$stephencsanders" target="_blank">Donate via Square Cash</a>
+            </div>
         </div>
 
         <header class="jumbotron">
             <h1 class="text-center">Me</h1>
         </header>
 
-        <ul class="nav nav-tabs">
-            <li role="presentation" class="active"><a href="#">Me</a></li>
-            <li><a href="./projects.html">Projects</a></li>
-            <li><a href="./philosophy.html">Philosophy</a></li>
-            <li><a href="./creative.html">Creative</a></li>
+        <ul style="float:right;" class="nav">
+            <li role="presentation" class="nav-item"><a class="nav-link active" href="#">Me</a></li>
+            <li class="nav-item"><a class="nav-link" href="./projects.html">Projects</a></li>
+            <li class="nav-item"><a class="nav-link" href="./philosophy.html">Philosophy</a></li>
+            <li class="nav-item"><a class="nav-link" href="./creative.html">Creative</a></li>
         </ul>
 
         <div class="github">
@@ -137,6 +138,7 @@
         <script type="text/javascript" src="src/js/dropdown.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
         <script type="text/js" src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/popper.min.js"></script>
         <script src="assets/js/bootstrap.min.js"></script>
         <script async defer src="https://buttons.github.io/buttons.js"></script>
         <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->

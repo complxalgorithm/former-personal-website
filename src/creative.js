@@ -1,7 +1,7 @@
 if($(window).width() > 1316) {
     $(function() {
         // creative page mini nav
-        $('#creative-tabs').addClass('nav-stacked');
+        $('#creative-tabs').addClass('flex-sm-column');
         $('#creative-tabs').css("float", "left");
     });
 }

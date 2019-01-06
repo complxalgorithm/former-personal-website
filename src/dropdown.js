@@ -1,2 +1,2 @@
-$('.dropdown-toggle').dropdown(); // for main menu dropdown
+$('.dropdown-toggle').dropdown('toggle'); // for main menu dropdown
 $('.collapse').collapse(); // for accordion on creative.html
