@@ -17,7 +17,7 @@ header {
 }
 
 .jumbotron h1 {
-    font-size: 60px;
+    font-size: 57.5px;
 }
 
 h3 {
@@ -59,8 +59,8 @@ h3 {
 }
 
 .btn-social-icon {
-  padding-left: 1px;
-  padding-right: 1px;
+  padding: 0 1px;
+  box-shadow: 1px 1px #000;
 }
 
 .btn-social-icon:hover {
@@ -189,10 +189,6 @@ p {
   font-family: "Harmattan";
 }
 
-#social {
-  padding-top: 8.5px;
-}
-
 #conbutton {
   padding-top: 12.5px;
   font-family: "Harmattan";
@@ -276,6 +272,10 @@ p {
     color: #007bff !important;
 }
 
+ul.nav:not(.active):not(.philo-sm-nav) li {
+    border: 1px dotted #000;
+}
+
 .info {
   padding-left: 50px;
 }
@@ -326,6 +326,7 @@ p {
   background-color: white;
   width: 65%;
   left: 250px;
+  font-family: "Harmattan";
 }
 
 div ul li {
@@ -410,9 +411,23 @@ li.melist, ul.sublist {
     }
 }
 
+@media only screen and (max-width: 628px) {
+    .jumbotron {
+        padding: 1em 2.75em !important;
+    }
+    
+    .jumbotron h1 {
+        font-size: 50px !important;
+    }
+    
+    #kofi {
+        padding-bottom: 12.5px;
+    }
+}
+
 @media only screen and (max-width: 684px) {
     article#intro {
-        padding: 0 3.5px 0 3.5px;
+        padding: 0 12.5px 0 12.5px;
     }
 }
 
@@ -438,11 +453,51 @@ li.melist, ul.sublist {
     div.info img#mepic {
         display: none;
     }
+    
+    #projs ul li {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 978px) {
+    .jumbotron {
+        margin-bottom: 1rem !important;
+    }
+    
+    .mediv, #creative-works {
+        top: 175px !important;
+    }
+    
+    ul.reg-nav, #creative-tabs {
+        width: 92.5%;
+        margin: 0 auto;
+        top: 137.5px;
+        padding-bottom: 10px;
+        float: none !important;
+    }
+    
+    ul.reg-nav li, #creative-tabs li {
+        width: 25%;
+    }
+    
+    ul.reg-nav li a, #creative-tabs li a {
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 630px) and (max-width: 979px) {
+    .mediv, #creative-works {
+        top: 250px !important;
+    }
 }
 
 @media (min-width: 975px) and (max-width: 1150px) {
     div.info img#mepic {
         width: 25% !important;
+    }
+    
+    #projs ul li {
+        font-size: 20px;
     }
 }
 
@@ -455,11 +510,19 @@ li.melist, ul.sublist {
     div.info img#mepic {
         width: 22.5% !important;
     }
+    
+    #projs ul li {
+        font-size: 21.5px;
+    }
 }
 
 @media (min-width: 1451px) {
     div.info img#mepic {
         width: 21% !important;
+    }
+    
+    #projs ul li {
+        font-size: 22px;
     }
 }
 
@@ -524,8 +587,9 @@ li.melist, ul.sublist {
 
 @media (min-width: 400px) and (max-width: 575px) {
     div#projs {
-        left: 22.5%;
+        left: 25.5%;
         width: 72.5%;
+        font-size: 18.5px;
     }
 }
 
@@ -552,6 +616,12 @@ li.melist, ul.sublist {
 }
 
 /* philosophy page */
+@media (max-width: 688px) {
+    .philo-sm-nav {
+        top: 55px !important;
+    }
+}
+
 @media (max-width: 767px) {
     ul.nav.nav-pills {
         top: 47.5px !important;
