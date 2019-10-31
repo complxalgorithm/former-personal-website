@@ -118,7 +118,7 @@ h3 {
   color: #007bb6 !important;
   border-color: white !important;
 }
-
+/*
 .btn-stackoverflow {
   background-color: #F48024 !important;
   color: white !important;
@@ -128,7 +128,7 @@ h3 {
   color: #F48024 !important;
   border-color: white !important;
 }
-
+*/
 .btn-refind {
   background-color: white !important;
 }
@@ -163,16 +163,6 @@ h3 {
 .btn-vsco:hover {
   background-color: darkslategray !important;
   border-color: darkslategray !important;
-}
-
-.btn-google {
-  background-color: #dd4b39 !important;
-  color: white !important;
-}
-.btn-google:hover {
-  background-color: white !important;
-  color: #dd4b39 !important;;
-  border-color: white !important;
 }
 /* END SOCIAL ICON COLORS */
 
@@ -284,8 +274,8 @@ ul.nav:not(.active):not(.philo-sm-nav) li {
   position: relative;
   left: 0;
   top: 0px;
-  width: 250px;
-  height: 452.5px;
+  width: 220px;
+  height: 437.5px;
 }
 
 .mediv {
@@ -307,14 +297,9 @@ ul.nav:not(.active):not(.philo-sm-nav) li {
   padding: 5px;
 }
 
-#melist {
-  list-style-type: circle;
+.main-intro {
   text-align: left;
-}
-
-#sublist {
-  list-style-type: square;
-  text-indent: inherit;
+  padding: 10px !important;
 }
 
 .twitter {
@@ -508,7 +493,7 @@ li.melist, ul.sublist {
     }
     
     div.info img#mepic {
-        width: 22.5% !important;
+        width: 20% !important;
     }
     
     #projs ul li {
