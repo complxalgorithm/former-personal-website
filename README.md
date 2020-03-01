@@ -9,4 +9,4 @@ general personal website
 * GitHub Pages
 
 ## Copyleft
-<footer>Copyright &copy; 2016-2019 Stephen C. Sanders. Licensed under the <a href="https://github.com/complxalgorithm/complxalgorithm.github.io/blob/master/LICENSE">MIT License</a>.</footer>
+<footer>Copyright &copy; 2016-2020 Stephen C. Sanders. Licensed under the <a href="https://github.com/complxalgorithm/complxalgorithm.github.io/blob/master/LICENSE">MIT License</a>.</footer>
