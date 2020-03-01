@@ -108,7 +108,7 @@ h3 {
   color: #007bb6 !important;
   border-color: white !important;
 }
-/*
+
 .btn-stackoverflow {
   background-color: #F48024 !important;
   color: white !important;
@@ -118,7 +118,7 @@ h3 {
   color: #F48024 !important;
   border-color: white !important;
 }
-*/
+
 .btn-refind {
   background-color: white !important;
 }
@@ -374,13 +374,34 @@ li.melist, ul.sublist {
 }
 */
 /* ---- MOBILE STYLES ---- */
+@media only screen and (max-width: 589px) {
+    #social {
+        width: 75%;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (max-width: 704px) {
+    .philo-sm-nav {
+        margin: 25% 0;
+    }
+    #mainphilo {
+        width: 75%;
+        float: right;
+        margin: 0 7.5px;
+    }
+    #mainphilo > p {
+        float: right;
+    }
+}
+
 @media only screen and (max-width: 546px) {
     div.mediv {
         width: auto;
     }
 }
 
-@media only screen and (max-width: 584px) {
+@media only screen and (max-width: 588px) {
     div#social a.btn-social-icon {
         margin: 2.5px 1px 2.5px 1px !important;
     }
@@ -402,7 +423,7 @@ li.melist, ul.sublist {
 
 @media only screen and (max-width: 684px) {
     article#intro {
-        padding: 0 12.5px 0 12.5px;
+        padding: 10px 12.5px 0 12.5px;
     }
 }
 
@@ -440,11 +461,11 @@ li.melist, ul.sublist {
     }
     
     .mediv, #creative-works {
-        top: 175px !important;
+        top: auto;
     }
     
     ul.reg-nav, #creative-tabs {
-        width: 92.5%;
+        width: 97.5%;
         margin: 0 auto;
         top: 137.5px;
         padding-bottom: 10px;
@@ -457,6 +478,7 @@ li.melist, ul.sublist {
     
     ul.reg-nav li a, #creative-tabs li a {
         text-align: center;
+        padding: .5rem .25rem !important;
     }
 }
 
