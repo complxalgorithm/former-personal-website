@@ -1,6 +1,6 @@
-# <a href="https://stephensanders.me" target="_blank">complxalgorithm.github.io</a>
+# former personal website
 
-general personal website
+general personal website in use from 2016 to 2020. RIP
 
 ## Technologies Used:
 * HTML5/CSS3
